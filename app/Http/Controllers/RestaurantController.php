@@ -72,7 +72,7 @@ class RestaurantController extends Controller
         $user ->name = $name;
         $user ->email = $email;
         $user ->subject = $subject;
-        $user -> massege = $message;
+        $user ->message = $message;
         $user ->save();
 
         return redirect()->back()->with('success', 'Your message has been sent. Thank you!');

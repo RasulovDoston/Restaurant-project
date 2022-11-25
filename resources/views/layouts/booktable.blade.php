@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -30,38 +33,10 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
-
-<body>
-  <!-- ======= Header ======= -->
-  <!-- <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <div class="logo me-auto">
-        <h1><a href="index.html">Delicious</a></h1>
-        
-      </div>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-
-      <a href="{{url('layouts.booktable')}}" class="book-a-table-btn scrollto">Book a table</a>
-
-    </div>
-  </header> -->
+  </head>
 
   <body>
+  
 
     <!-- ======= Book A Table Section ======= -->
     <section id="book-a-table" class="book-a-table">
@@ -143,11 +118,15 @@
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
+          <div class="text-center">
+          <a href="{{url('/')}}" class="btn btn-danger">Back</a>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
         </form>
 
       </div>
     </section><!-- End Book A Table Section -->
+
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container">
@@ -168,10 +147,10 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
-    </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
   </body>
 
   </html>
